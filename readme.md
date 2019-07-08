@@ -1,6 +1,9 @@
 # Browser Support for CSS / SCSS
 Browser support let you use simple SCSS mixins to apply code only for a specific browser. This can be handy in case you want to write your fallback code specific for Internet Exployer 11. 
 
+## Currently Supports:
+- Internet Exployer 11
+
 ## How to use
 ```scss 
 	@include browser(IE11){
