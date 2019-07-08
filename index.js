@@ -1,1 +1,1 @@
-import './scss/spaceframework.scss';
+import './test/scss/style.scss';

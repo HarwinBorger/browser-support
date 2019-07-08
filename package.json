@@ -1,0 +1,41 @@
+{
+  "name": "browser-support",
+  "version": "0.1.0",
+  "description": "SASS mixin to add CSS support for specific browsers in your project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarwinBorger/browser-support.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "mixins",
+    "browser",
+    "support",
+    "library"
+  ],
+  "author": "Harwin Borger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarwinBorger/browser-support/issues"
+  },
+  "homepage": "https://github.com/HarwinBorger/browser-support#readme",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "postcss-scss": "^2.0.0"
+  }
+}

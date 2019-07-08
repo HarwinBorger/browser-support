@@ -1,0 +1,15 @@
+@mixin browser($browser) {
+	$browser: to_upper_case($browser);
+
+	// IE IE11.0
+	// Source: https://stackoverflow.com/questions/20541306/how-to-write-a-css-hack-for-ie-11
+	@if ($browser == IE11) {
+		@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+			@at-root {
+				*::-ms-backdrop, & {
+					@content
+				}
+			}
+		}
+	}
+}

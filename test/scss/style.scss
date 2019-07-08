@@ -1,0 +1,17 @@
+@import "../../scss/browser";
+
+.browser{
+	display: block;
+	padding: 20px;
+	font-weight: bold;
+	border: 1px solid #333;
+}
+
+.ie11 {
+	&::before {
+		@include browser(IE11) {
+			content: 'this is IE11 only';
+			background: limegreen;
+		}
+	}
+}

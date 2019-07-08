@@ -1,0 +1,11 @@
+.ie11 {
+	display: block;
+	padding: 20px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	*::-ms-backdrop, .ie11::before {
+		content: 'ie11';
+	}
+}
+
