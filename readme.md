@@ -12,6 +12,7 @@ Browser support let you use simple SCSS mixins to apply code only for a specific
 ```
 
 ## Example
+### SCSS Code
 ```scss
 .myClass::before {
 	@include browser(IE11){
@@ -20,7 +21,7 @@ Browser support let you use simple SCSS mixins to apply code only for a specific
 }
 ```
 
-## Outputs
+### CSS Outputs
 ```css
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	*::-ms-backdrop, .myClass::before {
